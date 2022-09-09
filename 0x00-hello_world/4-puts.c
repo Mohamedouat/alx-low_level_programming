@@ -1,11 +1,13 @@
 #!/bin/bash
 #include <stdio.h>
 /*
- * main - Entry point
+ * main - print the string in the puts function
  *
- * Return: Always 0 (Succces)
+ * Descrition: using the main function
+ * this program prints "Programming is like building a multilingual puzzle
+ * Return: 0
  */
 int main (void)
 {
-puts("\"programming is like building a multilingual puzzle"); return (0);
+puts("\"Programming is like building a multilingual puzzle); return (0);
 }
