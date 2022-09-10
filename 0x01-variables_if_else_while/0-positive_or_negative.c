@@ -2,7 +2,7 @@
 #include <time.h>
 
 /**
- * main - print if the number is positive, or negative
+ * main -  positive, or negative
  * Return: 0
  */
 
