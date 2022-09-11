@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - the last digit
- * Return: 0
+ * main - Entry point
+ * Return: Always 0 (Success!)
  */
 
 int main(void)
