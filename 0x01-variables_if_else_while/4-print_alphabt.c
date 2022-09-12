@@ -8,16 +8,18 @@
 
 int main(void)
 {
-char low;
-for (low = 'a'; low <= 'z'; low++)
-{
-if (low != 'e' || low != 'q')
-putchar(low);
+	char low;
+
+	low = 'a';
+	while (low <= 'z')
+	{
+		if (low != 'e' && low != 'q')
+		{
+			putchar(low);
+		}
+		low++;
+	}
+	putchar('\n');
+	return (0);
 }
-else
-{
-putchar(low++)
-}
-putchar('\n');
-Return(0);
-}
+
