@@ -6,10 +6,12 @@
  * @b: second int to swap
  * Return: void
  */
+
 void swap_int(int *a, int *b)
 {
 int c;
 
 *a = *b;
-c = *a
+c = *a;
+*b = c;
 }
